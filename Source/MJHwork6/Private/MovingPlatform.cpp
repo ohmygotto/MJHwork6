@@ -18,7 +18,7 @@ void AMovingPlatform::BeginPlay()
 	StartLocation = GetActorLocation();
 }
 
-void AMovingPlatform::Tick(float DeltaTime)
+void AMovingPlatform::Tick(float DeltaTime) //엑터 회전 부분중 일부는 chatgpt를 이용해서 해결법 찾기 및 검수를 진행했습니다.
 {
 	Super::Tick(DeltaTime);
 
